@@ -1,0 +1,26 @@
+// Here you can add other styles
+.date-picker-wrapper {
+  margin-bottom: 20px;
+}
+
+.row-wrapper {
+  margin: 0;
+
+  .label-wrapper {
+
+    .centered-label {
+      width: 100%;
+      text-align: center;
+    }
+
+    .left-label {
+      margin-left: 15px;
+    }
+
+    .right-label {
+      margin-left: 55px;
+    }
+  }
+}
+
+
