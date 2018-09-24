@@ -1,0 +1,47 @@
+#part1{
+	background: linear-gradient(rgba(220,240,247, 0.8), rgba(147,222,248, 0.8)),
+				url(../../../assets/img/image/open-door.jpg);
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+	padding-top: 5vw;
+}
+
+.app{
+	width: 100%
+}
+
+#part1-1{
+	padding-left: 10vw;
+}
+
+.logo-image{
+	height: 30vh;
+	margin-top: 0vh;
+}
+
+h1{
+	font-family: 'Share', cursive;
+	color: #0c2c52;
+	font-size: 40px;
+	margin-top: 2vh;	
+}
+
+h1 span{
+	font-weight: 700;
+}
+
+.btn-light{
+	background-color: white;
+	border-color: white;
+	font-family: 'Share', cursive;
+	font-weight: 700;
+	font-size: 25px;
+	width: 450px;
+	color:#0c2c52;
+}
+
+#video{
+	margin: 0 auto;
+	margin-top: 2vh;
+}

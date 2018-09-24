@@ -1,6 +1,6 @@
 import OneDayStatistics from './StoreAnalytics/OneDayStatistics/OneDayStatistics';
 import Dashboard from './Dashboard';
-import { Login, Page404, Page500, Register } from './Pages';
+import { Login, Page404, Page500, Register, LandingPage } from './Pages';
 
 export {
   Page404,
@@ -8,6 +8,7 @@ export {
   Register,
   Login,
   Dashboard,
-  OneDayStatistics
+  OneDayStatistics,
+  LandingPage
 };
 
