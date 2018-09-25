@@ -52,6 +52,11 @@ export default {
           url: '/500',
           icon: 'icon-heart',
         },
+        {
+          name: 'Landing Page',
+          url: '/landing',
+          icon: 'icon-heart',
+        },
       ],
     },
   ],

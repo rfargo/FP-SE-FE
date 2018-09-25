@@ -1,0 +1,224 @@
+.bold{
+	font-weight: 700;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.super{
+    vertical-align: super;
+    font-size: smaller;
+}
+
+#part1{
+	background: linear-gradient(rgba(220,240,247, 0.8), rgba(147,222,248, 0.8)),
+				url(../../../assets/img/image/open-door.jpg);
+	height: 90vh;
+	padding-top: 10vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+}
+
+.app{
+	width: 100%
+}
+
+#part1-1{
+	padding-left: 10vw;
+}
+
+.logo-image{
+	height: 30vh;
+	margin-top: 0vh;
+}
+
+h1{
+	font-family: 'Share', cursive;
+	color: #0c2c52;
+	font-size: 40px;
+	margin-top: 2vh;	
+}
+
+.btn-light{
+	background-color: white;
+	border-color: white;
+	font-family: 'Share', cursive;
+	font-weight: 700;
+	font-size: 25px;
+	width: 450px;
+	color:#0c2c52;
+}
+
+#video{
+	margin: 0 auto;
+	margin-top: 2vh;
+}
+
+#scroll-more{
+	text-align: center;
+	color: #0c2c52;
+	font-style: 'Source Sans Pro', sans-serif;
+	vertical-align: bottom;
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: 10vh;
+}
+
+#scroll-more {
+    -webkit-animation: mover 0.5s infinite  alternate;
+    animation: mover 0.5s infinite  alternate;
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+#part2{
+	height: 75vh;
+	background: linear-gradient(rgba(255,255,255, 0.9), rgba(255,255,255, 0.9)),
+				url(../../../assets/img/image/show-data.jpg);
+	padding: 5vh 5vw;
+		background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+
+}
+
+.bring-business{
+	font-family: 'Share', cursive;
+	color:#0c2c52;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 5vh;
+}
+
+#part2 .col-4{
+	text-align: right;
+}
+
+.graph-image{
+	width: 25vw;
+	height: auto;
+}
+
+.bring-explain{
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#0c2c52;
+	text-indent: 50px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.btn-primary{
+	background-color: #0c2c52;
+	border-color: #0c2c52;
+	font-weight: 700;
+	font-size: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 2.5vh;
+}
+
+
+#part3{
+	height: 75vh;
+	background: linear-gradient(135deg, rgb(95, 107,97) 1%,rgb(94, 157, 200) , rgb(12, 44, 82));
+	padding: 5vh 5vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.pricing{
+	margin: 0 auto;
+    background: white;
+    text-align: center;
+    width: 50vw;
+    padding: 5vh 5vw;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #0c2c52;
+}
+
+.pricing h3{
+	font-family: 'Share', cursive;
+	font-size: 40px;
+}
+
+.pricing hr{
+	border-color: #0c2c52;
+	border-width: 5px;
+}
+
+.pricing h2{
+	font-size: 100px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: -15px;
+	color: #5e9dc8;
+}
+
+.pricing h2 .super{
+	font-size: 30px;
+}
+
+.pricing p{
+	font-size: 20px;
+	margin-top: -10px;
+	padding-top: 0;
+}
+
+.pricing h4{
+	font-size: 40px;
+}
+
+.pricing-button{
+	margin: 0 auto;
+    background: #0c2c52;
+    text-align: center;
+    width: 50vw;
+    padding: 2vh 2vw;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+
+#part4{
+	height: 30vh;
+	background: linear-gradient(rgba(12, 44, 82, 0.75), rgba(12, 44, 82, 0.75)),
+				url(../../../assets/img/image/handshake.jpg);
+	background-position: 0% -50%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 5vh 5vw;
+}
+
+#part4 h3{
+	color: white;
+	font-size: 50px;
+	font-family: 'Source Sans Pro', sans-serif;	
+}
+
+#part4 .col-6{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
+
+#part4 .col-6:first-child{
+	text-align: right;
+}
+
+#part4 .col-6:last-child{
+	text-align: left;
+}
+
+.yes-ready{
+	height: 15vh;
+	font-size: 40px;
+}
