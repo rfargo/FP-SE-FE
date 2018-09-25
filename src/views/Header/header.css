@@ -1,0 +1,21 @@
+.logo-navbar{
+	height: 50px;
+	width: auto;
+}
+
+#navigation{
+	border-bottom-color: #0C2C52 !important; 
+	border-bottom-width: 5px !important;
+	font-family: 'Share', cursive;
+	font-size: 25px;
+}
+
+#navigation .nav-link{
+	color: #0C2C52 !important;
+	margin-left: 25px;
+}
+
+#navigation .nav-link:hover{
+	font-weight: 700;
+	text-decoration: underline;
+}
