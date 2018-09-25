@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import { Button, Card, CardBody, CardGroup, Col, Container, Form, Input, InputGroup, InputGroupAddon, InputGroupText, Row } from 'reactstrap';
+import Header from '../../Header/header';
 
 class Login extends Component {
   render() {
     return (
+      <div>
+      <Header />
       <div className="app flex-row align-items-center">
         <Container>
           <Row className="justify-content-center">
@@ -47,7 +50,7 @@ class Login extends Component {
                       <h2>Sign up</h2>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua.</p>
-                      <Button color="primary" className="mt-3" active>Register Now!</Button>
+                      <Button color="primary" className="mt-3" active  href="/register/">Register Now!</Button>
                     </div>
                   </CardBody>
                 </Card>
@@ -55,6 +58,7 @@ class Login extends Component {
             </Col>
           </Row>
         </Container>
+      </div>
       </div>
     );
   }

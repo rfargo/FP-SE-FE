@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import { Button, Card, CardBody, CardFooter, Col, Container, Form, Input, InputGroup, InputGroupAddon, InputGroupText, Row } from 'reactstrap';
+import Header from '../../Header/header';
 
 class Register extends Component {
   render() {
     return (
-      <div className="app flex-row align-items-center">
+      <div>
+      <Header />
+      <div className="app flex-row align-items-center" style={{paddingTop: '10em'}}>
         <Container>
           <Row className="justify-content-center">
             <Col md="6">
@@ -74,6 +77,7 @@ class Register extends Component {
             </Col>
           </Row>
         </Container>
+      </div>
       </div>
     );
   }
